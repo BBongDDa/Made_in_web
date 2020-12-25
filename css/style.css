@@ -38,10 +38,122 @@
     -o-transition: ease all 0.5s;
 }
 
-
 input,button,select,textarea {
 	outline: none !important;
 }
+
+
+.mi-content-area{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 262px;
+    padding-left: 180px;
+}
+.mi-content-area3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 370px;
+    padding-right: 650px;
+}
+
+.mi-content-area4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 380px;
+    padding-left: 220px;
+}
+
+.direct1{
+    background-image: url('../images/direct_page1_N.png');
+    background-size: cover;
+    height: 110vh;
+}
+.direct2{
+    background-image: url('../images/direct_page2_N.png');
+    background-size: cover;
+    height: 110vh;
+}
+.direct3{
+    background-image: url('../images/direct_page3_N.png');
+    background-size: cover;
+    height: 110vh;
+}
+
+.company1{
+    background-image: url('../images/회사소개서\ –\ 1.png');
+    background-size: cover;
+    height: 100vh;
+}
+.company2{
+    background-image: url('../images/회사소개서\ –\ 2.png');
+    background-size: cover;
+    height: 100vh;
+}
+.company3{
+    background-image: url('../images/회사소개서\ –\ 3.png');
+    background-size: cover;
+    height: 100vh;
+}
+.company4{
+    background-image: url('../images/회사소개서\ –\ 4.png');
+    background-size: cover;
+    height: 100vh;
+}
+.company5{
+    background-image: url('../images/회사소개서\ –\ 5.png');
+    background-size: cover;
+    height: 100vh;
+}
+.company6{
+    background-image: url('../images/회사소개서\ –\ 6.png');
+    background-size: cover;
+    height: 100vh;
+}
+.company7{
+    background-image: url('../images/회사소개서\ –\ 7.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+#btn-main{
+    margin-top: 10px;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    height: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#btn-3{
+    margin-top: 10px;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #E8E8E8;
+}
+#btn-4{
+    margin-top: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: auto;
+    min-width: 210px;
+    background-color: #04406E;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid #04406E;
+    text-align: center;
+}
+
 
 html,
 body {
@@ -312,7 +424,7 @@ button {
 }
 #mainbg{
     height: 100vh;
-    background:  url('../images/mainbg222.jpg');
+    background:  url('../images/mainbg222.png');
     background-size: cover;
     background-position: center;
     padding-top: 20rem;
@@ -320,7 +432,7 @@ button {
 }
 #bg2{
     height: 100vh;
-    background:  url('../images/mainbg2.jpg');
+    background:  url('../images/mainbg2.png');
     background-size: cover;
     background-position: center;
     padding-top: 20rem;
@@ -328,7 +440,7 @@ button {
 }
 #bg3{
     height: 100vh;
-    background:  url('../images/mainbg3.jpg');
+    background:  url('../images/mainbg3.png');
     background-size: cover;
     background-position: center;
     padding-top: 20rem;
@@ -336,18 +448,36 @@ button {
 }
 #bg4{
     height: 100vh;
-    background:  url('../images/mainbg4.jpg');
+    background:  url('../images/mainbg4.png');
     background-size: cover;
     background-position: center;
     padding-top: 20rem;
     text-align: center;
 }
 #msgslog{
-    display:scroll; position:fixed; bottom:30px; right:20px; font-size: 1.2rem; font-weight: bold; color: white;
+    display:scroll; position:fixed; bottom:30px; right:25px; font-size: 1.2rem; font-weight: bold; color: white; text-shadow: 0 0 3px black;
 }
 #msgicon{
     width: 4rem;
   }
+  #msgicondi{
+    width: 2.5rem;
+    border-radius: 30px;
+  }
+
+#directmsglog{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: auto;
+    background-color: #04406E;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid #04406E;
+    text-align: center;
+    justify-content: center;
+}
 .padding-bottom_2 {
     padding-bottom: 20px !important;
 }
@@ -962,6 +1092,10 @@ div.left_head ul li i {
     font-size: 16px;
     margin-right: 5px;
     color: #1e72bc;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .right_head {
